@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volumetwo.five.MultiTouchActivity">
+
+<!--    <com.example.customview.volumetwo.five.MultiTouchView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+<!--    </com.example.customview.volumetwo.five.MultiTouchView>-->
+
+<!--    <com.example.customview.volumetwo.five.MulitDragImageView-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/p1"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:adjustViewBounds="true">-->
+<!--    </com.example.customview.volumetwo.five.MulitDragImageView>-->
+
+    <com.example.customview.volumetwo.five.TouchScaleTextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="怒发冲，凭阑处、潇潇雨歇。\n
+抬望眼，仰天长啸，壮怀激烈。\n
+三十功名尘与土，八千里路云和月。\n
+莫等闲、白了少年头，空悲切。\n
+靖康耻，犹未雪；臣子恨，何时灭？\n
+驾长车，踏破贺兰山缺。\n
+壮志饥飧胡虏肉，笑谈渴饮匈奴血。\n
+待从头，收拾旧山河，朝天阙。\n">
+    </com.example.customview.volumetwo.five.TouchScaleTextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

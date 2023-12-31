@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CustomView"
+        tools:targetApi="31"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".volumetwo.ten.LottieActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.nine.VolumeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.nine.RingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.nine.HuaweiClockActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.eight.SnapHelperActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".volumetwo.eight.QQListActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.eight.CoverFlowRecyclerViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.seven.RecyclerViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.six.SlideMenuActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".volumetwo.six.ViewDragHelperActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.six.TestScrollActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.five.MultiTouchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.four.SolveScrollConflictActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.four.DirectionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.four.TouchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.three.CustomViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.two.SetRectToRectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.two.MatrixActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.one.ClockActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.one.Rotate3DActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumetwo.one.CameraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.twelve.AlterDialogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.twelve.GestureActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.eleven.ViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.ten.SurfaceViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.ten.AndroidCanvasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.nine.CanvasActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.seven.DrawAdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.six.PaintActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.five.SVGActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.five.PathAnimatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.four.LayoutAnimActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.four.ValuesHolderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.AnimatorXmlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.MenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.AnimatorSetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.FallingBallActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.ObjectAnimatorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.ParabolicAnimationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.LoadingImageViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.three.ValueAnimeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.two.FrameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".volumeone.two.SecondActivity"
+            android:exported="true"
+            android:theme="@style/statusBar" />
+        <activity
+            android:name=".volumeone.one.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

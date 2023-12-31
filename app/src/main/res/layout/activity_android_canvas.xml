@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".volumeone.ten.AndroidCanvasActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/density_view_1"
+        android:layout_marginStart="20dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintStart_toEndOf="@id/density_view_1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/density_view_2"
+        android:layout_marginStart="20dp">
+    </ImageView>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        android:id="@+id/custom_drawable_image"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/custom_drawable_text"
+        android:text="祈愿明天对你来说又是美好的一天"
+        android:textColor="#ff0000"
+        app:layout_constraintTop_toBottomOf="@id/custom_drawable_image"
+        app:layout_constraintStart_toStartOf="@id/custom_drawable_image">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/custom_drawable_text"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/custom_drawable_text"
+        android:text="下载图片"
+        android:id="@+id/download_image">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/download_image"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/download_image"
+        android:text="保存图片"
+        android:id="@+id/save_image">
+    </Button>
+
+
+    <com.example.customview.volumeone.ten.WaterMarkView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="10dp"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </com.example.customview.volumeone.ten.WaterMarkView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shape标签实例"
+        android:padding="10dp"
+        android:id="@+id/shape_text"
+        app:layout_constraintStart_toStartOf="@id/shape_button"
+        app:layout_constraintBottom_toTopOf="@id/shape_button"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_text">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="添加圆角"
+        android:id="@+id/shape_button"
+        android:backgroundTint="@null"
+        android:textAllCaps="false">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

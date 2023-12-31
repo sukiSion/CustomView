@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volumeone.seven.DrawAdvancedActivity">
+
+    <com.example.customview.volumeone.eight.InvertedImage
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/shadow_layer_view"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </com.example.customview.volumeone.eight.InvertedImage>
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="showShadowLayer"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:id="@+id/show_shadow_layer_button"-->
+<!--        android:layout_marginTop="300dp">-->
+<!--    </com.google.android.material.button.MaterialButton>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="clearShadowLayer"-->
+<!--        app:layout_constraintStart_toStartOf="@id/show_shadow_layer_button"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/show_shadow_layer_button"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/show_shadow_layer_button"-->
+<!--        android:id="@+id/clear_shadow_layer_button">-->
+<!--    </com.google.android.material.button.MaterialButton>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Sion"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/clear_shadow_layer_button"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@android:color/black"-->
+<!--        android:shadowColor="@color/purple_200"-->
+<!--        android:shadowDx="10"-->
+<!--        android:shadowDy="10"-->
+<!--        android:shadowRadius="1">-->
+<!--    </TextView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

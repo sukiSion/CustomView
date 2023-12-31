@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 用于将objectAnimator和Vector联系起来 -->
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/line">
+
+    <target
+        android:animation="@animator/anim_trim_start"
+        android:name="bar">
+    </target>
+
+</animated-vector>

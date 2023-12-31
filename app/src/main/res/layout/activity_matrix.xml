@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volumetwo.two.MatrixActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/ll_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_translate"
+            android:text="移动"
+            android:layout_marginTop="16dp">
+        </Button>
+
+        <SeekBar
+            android:id="@+id/sb_progress"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:min="1"
+            android:max="360"
+            android:layout_marginTop="16dp"/>
+
+        <com.example.customview.volumetwo.two.MatrixImageView
+            android:layout_marginTop="16dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p1"
+            android:id="@+id/mimg_translate"
+            android:adjustViewBounds="true">
+        </com.example.customview.volumetwo.two.MatrixImageView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.example.customview.volumetwo.two.TestScaleView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/tsv_scale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </com.example.customview.volumetwo.two.TestScaleView>
+
+    <com.example.customview.volumetwo.two.TestRectToRectView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/trtrv_cat">
+    </com.example.customview.volumetwo.two.TestRectToRectView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

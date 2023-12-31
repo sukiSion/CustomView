@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".volumeone.eleven.ViewActivity">
+
+<!--    <com.example.customview.eleven.MyLineraLayout-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/purple_200"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <TextView android:text="第一个VIEW"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:background="#ff0000"/>-->
+
+<!--        <TextView android:text="第二个VIEW"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:background="#00ff00"/>-->
+
+<!--        <TextView android:text="第三个VIEW"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:padding="10dp"-->
+<!--            android:background="#0000ff"/>-->
+<!--        />-->
+
+<!--    </com.example.customview.eleven.MyLineraLayout>-->
+
+    <com.example.customview.volumeone.eleven.FlowLayout
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:id="@+id/flow_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="Welcome"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="IT工程师"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="我真是可以的"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="你觉得呢"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="不要只知道挣钱"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="努力ing"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/text_flag"
+        android:background="@drawable/flag_03"
+        android:text="I thick i can"
+        android:textColor="@android:color/white" />
+
+    </com.example.customview.volumeone.eleven.FlowLayout>
+
+    <com.example.customview.volumeone.eleven.FlowLayout1
+        android:layout_width="match_parent"
+        android:background="@color/purple_200"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flow_layout"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="Welcome"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="IT工程师"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="我真是可以的"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="你觉得呢"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="不要只知道挣钱"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="努力ing"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/text_flag"
+            android:background="@drawable/flag_03"
+            android:text="I thick i can"
+            android:textColor="@android:color/white" />
+
+    </com.example.customview.volumeone.eleven.FlowLayout1>
+
+    <!--    <com.example.customview.eleven.MyTextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:header="@drawable/p3"-->
+<!--        app:headerHeight="300dp"-->
+<!--        app:headerVisableHeight="100dp"-->
+<!--        app:age="young"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+<!--    </com.example.customview.eleven.MyTextView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

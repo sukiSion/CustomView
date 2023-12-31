@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- onshot: false：一直循环
+     onshot: true：循环一次-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--  一帧就是一幅静止的画面，连续的帧就形成动画 -->
+    <!-- item：一帧动画 ，使用图片资源和时间 -->
+    <item android:drawable="@drawable/list_icon_gif_playing1"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing2"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing3"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing4"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing5"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing6"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing7"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing8"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing9"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing10"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing11"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing12"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing13"
+        android:duration="60">
+    </item>
+    <item android:drawable="@drawable/list_icon_gif_playing14"
+        android:duration="60">
+    </item>
+</animation-list>
